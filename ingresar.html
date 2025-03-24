@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresar Alumno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Ingresar Nuevo Alumno</h1>
+    </header>
+
+    <main>
+        <section class="form-alumno">
+            <h2>Registrar Alumno</h2>
+            <form onsubmit="registrarAlumno(event)">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" required>
+
+                <label for="phone">Teléfono:</label>
+                <input type="text" id="phone" required>
+
+                <label for="language">Idioma:</label>
+                <select id="language" required>
+                    <option value="Español">Español</option>
+                    <option value="Inglés">Inglés</option>
+                    <option value="Francés">Francés</option>
+                </select>
+
+                <button class="btn" type="submit">Registrar alumno</button>
+            </form>
+
+            <div class="button-container">
+                <a href="alumnos.html" class="btn">Volver a lista de alumnos</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+        <p>&copy; 2025 - Todos los Derechos Reservados - I.E.P. "Colegio Sapientia"</p>
+    </footer>
+</html>

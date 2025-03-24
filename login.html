@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio Sapientia</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">I.E.P. Colegio Sapientia</div>
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    
+    
+
+    <main>
+        <div class="login">
+            <h2>Iniciar Sesión</h2>
+            <form action="alumnos.html" method="POST">
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="password">Contraseña:</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" required>
+                    <span id="togglePassword" class="eye-icon">👁️</span>
+                </div>
+
+                <button type="submit">Ingresar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="login.js"></script>
+</body>
+<footer>
+        <p>&copy; 2025 - Todos los Derechos Reservados - I.E.P. "Colegio Sapientia"</p>
+    </footer>
+</html>

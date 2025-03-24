@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alumnos</title>
+    <link rel="stylesheet" href="alumnos.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Alumnos</h1>
+    </header>
+
+    <main>
+        <section class="lista-alumnos">
+            <h2>Alumnos Registrados</h2>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Teléfono</th>
+                            <th>Idioma</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabla-alumnos">
+                        <!-- Los alumnos se insertarán aquí -->
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="button-container">
+                <a href="ingresar.html" class="btn">+ Agregar Nuevo Alumno</a>
+                <a href="login.html" class="btn">Cerrar Sesión</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+<footer>
+        <p>&copy; 2025 - Todos los Derechos Reservados - I.E.P. "Colegio Sapientia"</p>
+    </footer>
+</html>
