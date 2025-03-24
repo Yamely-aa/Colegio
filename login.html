@@ -11,16 +11,16 @@
     <header>
         <div class="logo">I.E.P. Colegio Sapientia</div>
         <nav class="navbar">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="login.html">Login</a>
+            <a href="./index.html">Inicio</a>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./login.html">Login</a>
         </nav>
     </header>
 
     <main>
         <div class="login">
             <h2>Iniciar Sesión</h2>
-            <form action="alumnos.html" method="POST">
+            <form onsubmit="verificarLogin(event)">
                 <label for="usuario">Usuario:</label>
                 <input type="text" id="usuario" name="usuario" required>
 
@@ -34,7 +34,7 @@
             </form>
         </div>
     </main>
-
+    <script src="script.js"></script>
     <script src="login.js"></script>
 </body>
 <footer>
